@@ -14,7 +14,11 @@ public final class R {
         public static final int buscg_icon=0x7f020000;
         public static final int buscg_point=0x7f020001;
         public static final int buscg_run=0x7f020002;
-        public static final int splashbuscg=0x7f020003;
+        public static final int compra_credito=0x7f020003;
+        public static final int consulta_saldo=0x7f020004;
+        public static final int meu_bus=0x7f020005;
+        public static final int onde_compra=0x7f020006;
+        public static final int splashbuscg=0x7f020007;
     }
     public static final class id {
         public static final int btn_onde_compro_passe=0x7f050001;
