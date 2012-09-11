@@ -1,82 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout
-	android:id="@+id/widget32"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	xmlns:android="http://schemas.android.com/apk/res/android">
-<ImageButton
-	android:id="@+id/btn_saldo"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:src="@drawable/consulta_saldo"
-	android:layout_x="63dp"
-	android:layout_y="75dp" />
-<ImageButton
-	android:id="@+id/btn_onde_compro_passe"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:src="@drawable/onde_compra"
-	android:layout_x="194dp"
-	android:layout_y="75dp" />
-<TextView
-	android:id="@+id/tcc"
-	android:layout_width="wrap_content"
-	android:layout_height="14dp"
-	android:text="TCC - BusCG - @tgmarinho"
-	android:textSize="10sp"
-	android:layout_x="83dp"
-	android:layout_y="407dp" />
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
 
-<ImageButton
-    android:id="@+id/meu_buscg"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_x="68dp"
-    android:layout_y="194dp"
-    android:src="@drawable/meu_bus" />
+    <ImageButton
+        android:id="@+id/btn_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="75dp"
+        android:src="@drawable/consulta_saldo" />
 
-<TextView
-    android:id="@+id/widget40"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_x="61dp"
-    android:layout_y="168dp"
-    android:gravity="center"
-    android:text="Localizar Onibus" />
+    <ImageButton
+        android:id="@+id/btn_onde_compro_passe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="75dp"
+        android:src="@drawable/onde_compra" />
 
-<TextView
-    android:id="@+id/widget39"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_x="186dp"
-    android:layout_y="50dp"
-    android:gravity="center"
-    android:text="Onde Comprar?" />
+    <TextView
+        android:id="@+id/tcc"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_x="83dp"
+        android:layout_y="407dp"
+        android:text="TCC - BusCG - @tgmarinho"
+        android:textSize="10sp" />
 
-<TextView
-    android:id="@+id/widget38"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_x="63dp"
-    android:layout_y="50dp"
-    android:gravity="center"
-    android:text="Consultar Saldo" />
+    <ImageButton
+        android:id="@+id/meu_buscg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="194dp"
+        android:src="@drawable/meu_bus" />
 
-<TextView
-    android:id="@+id/widget41"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_x="200dp"
-    android:layout_y="170dp"
-    android:gravity="center"
-    android:text="Passe Online" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="168dp"
+        android:gravity="center"
+        android:text="Localizar Onibus" />
 
-<ImageButton
-    android:id="@+id/comprar_passe"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_x="196dp"
-    android:layout_y="194dp"
-    android:src="@drawable/compra_credito" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="50dp"
+        android:gravity="center"
+        android:text="Onde Comprar?" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="50dp"
+        android:gravity="center"
+        android:text="Consultar Saldo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="170dp"
+        android:gravity="center"
+        android:text="Comprar Online" />
+
+    <ImageButton
+        android:id="@+id/comprar_passe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="194dp"
+        android:src="@drawable/compra_credito" />
 
 </AbsoluteLayout>

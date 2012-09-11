@@ -23,14 +23,10 @@ public final class R {
     public static final class id {
         public static final int btn_onde_compro_passe=0x7f050002;
         public static final int btn_saldo=0x7f050001;
-        public static final int comprar_passe=0x7f050004;
-        public static final int meu_buscg=0x7f050003;
-        public static final int tcc=0x7f050005;
+        public static final int comprar_passe=0x7f050005;
+        public static final int meu_buscg=0x7f050004;
+        public static final int tcc=0x7f050003;
         public static final int widget32=0x7f050000;
-        public static final int widget38=0x7f050006;
-        public static final int widget39=0x7f050007;
-        public static final int widget40=0x7f050008;
-        public static final int widget41=0x7f050009;
     }
     public static final class layout {
         public static final int main=0x7f030000;
