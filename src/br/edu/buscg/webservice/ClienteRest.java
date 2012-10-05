@@ -10,8 +10,13 @@ import com.google.gson.Gson;
 
 public class ClienteRest {
 
-	private static final String URL_WS = "http://10.82.0.22:8089/ServerBus/rest/onibus/";
+//	private static final String URL_WS = "http://10.82.0.22:8089/ServerBus/rest/onibus/";
 
+	//uniderp
+	private static final String URL_WS = "http://192.168.100.184:8089/ServerBus/rest/onibus/";
+	
+	
+	
 	public Onibus get(int id) throws Exception {
 
 		String[] resposta = new WebServiceClient().get(URL_WS + id);
