@@ -15,13 +15,19 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.Overlay;
 import com.google.android.maps.Projection;
 
-public class ArtigoRotaBusOverlay extends Overlay {
+/**
+ * Classe que desenha a rota de ônibus
+ */
 
+
+public class TracaRota extends Overlay {
+
+	@SuppressWarnings("unused")
 	private int cor;
 	private Paint paint = new Paint();
 	private List<GeoPoint> geoPoint;
 	
-	public ArtigoRotaBusOverlay(List<GeoPoint> geoPoint, int cor) {
+	public TracaRota(List<GeoPoint> geoPoint, int cor) {
 		this.geoPoint = geoPoint;
 		this.cor = cor;
 	}
@@ -55,6 +61,7 @@ public class ArtigoRotaBusOverlay extends Overlay {
 		
 			for (GeoPoint geo : geoPoint) {
 				Point ponto = mapView.getProjection().toPixels(geo, null);
+				@SuppressWarnings("unused")
 				Projection pro = mapView.getProjection();
 				canvas.drawLine(ponto.x, ponto.y, ponto.x, ponto.y, paint);
 			}

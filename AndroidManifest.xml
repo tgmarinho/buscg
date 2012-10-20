@@ -6,7 +6,10 @@
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+	<uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    
     <uses-sdk android:minSdkVersion="7" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -34,7 +37,7 @@
             android:label="BusCg" >
         </activity>
         <activity
-            android:name=".OnibusMapaTeste"
+            android:name=".OnibusMapa"
             android:label="BusCg" >
         </activity>
     </application>

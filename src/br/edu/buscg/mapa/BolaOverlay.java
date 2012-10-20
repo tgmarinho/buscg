@@ -11,12 +11,8 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.Overlay;
 
 /**
- * Simples Overlay que recebe as coordenadas Latitude e Longitude
- * 
- * e desenha um círculo
- * 
- * @author ricardo
- * 
+ * Simples Overlay que recebe as coordenadas Latitude e Longitude e desenha um círculo
+ * @author Ricardo Lecheta - Livro Android
  */
 public class BolaOverlay extends Overlay {
 	// Constante android.graphics.Color.?
@@ -35,7 +31,6 @@ public class BolaOverlay extends Overlay {
 
 		if (geoPoint != null) {
 			paint.setColor(cor);
-
 			// Converte as coordenadas para pixels
 			Point ponto = mapView.getProjection().toPixels(geoPoint, null);
 			canvas.drawCircle(ponto.x, ponto.y, 5, paint);

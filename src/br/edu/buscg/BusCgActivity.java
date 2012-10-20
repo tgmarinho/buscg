@@ -8,17 +8,24 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 
+/**
+ *  Activity invocada pela classe SplashBusCG, mostra na tela o menu da aplicação 
+ *  e trata eventos de click dos botões, chamado outras atividades
+ *
+ *  @author tgmarinho
+ */
+
 public class BusCgActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		// Exibo o menu na tela do smartphone
 		setContentView(R.layout.menu);
-
+		// Chamo os métodos que tratam os eventos com os quatro botões do menu
 		servicos();
 
 	}
-	
 	
 	private void servicos() {
 		
@@ -66,14 +73,13 @@ public class BusCgActivity extends Activity implements OnClickListener {
 			}
 		});
 		
-		
 		btnLocalizarBus = (ImageButton) findViewById(R.id.meu_buscg);
 		btnLocalizarBus.setOnClickListener(this);
-			
-		
-		
 	}	
 	
+	/**
+	 * Método principal da Activity, chamo outra atividade a qual apresenta um combobox que contém as linha de ônibus
+	 */
 	public void onClick(View v) {
 		Intent it = new Intent(this, LocalizarOnibus.class);
 		startActivity(it);

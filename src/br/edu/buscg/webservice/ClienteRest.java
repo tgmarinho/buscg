@@ -4,7 +4,7 @@
  */
 package br.edu.buscg.webservice;
 
-import br.edu.pojos.Onibus;
+import br.edu.buscg.pojos.Onibus;
 
 import com.google.gson.Gson;
 

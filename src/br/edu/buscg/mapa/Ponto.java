@@ -4,6 +4,11 @@ import android.location.Location;
 
 import com.google.android.maps.GeoPoint;
 
+/**
+ * Converte latitude e longitude em coordenada
+ * @author Ricardo Lecheta - Livro Android
+ */
+
 public class Ponto extends GeoPoint {
 
 	// Valores em graus * 1E6 (microdegrees)
